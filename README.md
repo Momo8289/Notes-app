@@ -6,3 +6,6 @@ This is a simple notes app I made for practice with HTML/CSS/JS. Currently, note
 - Searching of notes by title. Search results update as you type.
 - Favourite notes to have them appear first
 - Fully responsive
+
+## Attributions
+- Icons used in this app are prvided by [Font Awesome](https://fontawesome.com/license/free) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
