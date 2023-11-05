@@ -8,4 +8,4 @@ This is a simple notes app I made for practice with HTML/CSS/JS. Currently, note
 - Fully responsive
 
 ## Attributions
-- Icons used in this app are prvided by [Font Awesome](https://fontawesome.com/license/free) under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+- Icons used in this app are prvided by [Font Awesome](https://fontawesome.com/license/free), and are licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
