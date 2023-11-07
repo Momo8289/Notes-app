@@ -97,24 +97,10 @@
         <div class="input-group"><button class="btn btn-primary" id="queryActionButton" type="button"><i class="fas fa-plus" id="queryButtonIcon"></i></button>
             <div class="dropdown"><button class="btn btn-primary dropdown-toggle rounded-0" aria-expanded="false" data-bs-toggle="dropdown" type="button"></button>
                 <div class="dropdown-menu"><span class="dropdown-item-text dropdown-item" onclick="changeQueryAction(&#39;new&#39;)">New note</span><span class="dropdown-item-text dropdown-item" onclick="changeQueryAction(&#39;search&#39;)">Search</span></div>
-            </div><input class="form-control" type="text" id="queryInput" placeholder="Note title"><button class="btn btn-primary" id="queryClearButton" type="button" onclick="clearQueryInput()"><i class="fas fa-times"></i></button>
+            </div><input class="form-control" type="text" id="queryInput" placeholder="Note title"><button class="btn btn-primary" id="queryClearButton" type="button" onclick="clearQueryInput()"><i class="fas fa-times" style="color: var(--bs-emphasis-color);"></i></button>
         </div>
     </header>
-    <main id="notesContainer" class="gridLayout">
-        <div class="note">
-            <div class="noteHeader">
-                <div>
-                    <h1 class="noteTitle">Grocery list</h1>
-                    <p class="timestamp">Created 2023-11-04 12:52 AM</p>
-                </div>
-                <div class="btn-group" role="group"><button class="btn btn-primary actionBtn" type="button"><i class="far fa-star" id="starIcon"></i><i class="fas fa-star text-warning" id="activeStarIcon" style="display:none;"></i></button><button class="btn btn-primary actionBtn" type="button"><i class="far fa-edit"></i></button><button class="btn btn-primary actionBtn" type="button"><i class="fas fa-trash"></i></button></div>
-            </div>
-            <hr>
-            <div class="fadeOut">
-                <p class="noteBody">test</p>
-            </div>
-        </div>
-    </main>
+    <main id="notesContainer" class="gridLayout"></main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/showdown.min.js"></script>
